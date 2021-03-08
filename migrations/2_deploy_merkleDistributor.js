@@ -1,6 +1,6 @@
 const MerkleDistributor = artifacts.require("MerkleDistributor")
 const RICEToken = "0xAe479E294C6De21842A4dbdf6785D1eACb0a23aE"
-const merkleRoot = "0x8f3f8b3152280a4a94782a6c1400d440887ad6a50a9486dbcaa6a852b713062f";
+const merkleRoot = "0x662d842146e917ebe29f667a4af22f6eaf00e8f2df63b06a6cbcfeea78978826";
 
 const migration = async (deployer, network, accounts) => {
     await Promise.all([
