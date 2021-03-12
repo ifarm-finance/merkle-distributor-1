@@ -6,15 +6,26 @@ import "./cryptography/MerkleProof.sol";
 import "./interfaces/IMerkleDistributor.sol";
 
 contract MerkleDistributor is IMerkleDistributor {
+    address private creator;
     address public immutable override token;
-    bytes32 public immutable override merkleRoot;
+    bytes32 public override merkleRoot;
 
     // This is a packed array of booleans.
     mapping(uint256 => uint256) private claimedBitMap;
 
+    modifier onlyOwner() {
+        require(msg.sender == creator, "Ownable: caller is not the owner");
+        _;
+    }
+
     constructor(address token_, bytes32 merkleRoot_) public {
         token = token_;
         merkleRoot = merkleRoot_;
+        creator = msg.sender;
+    }
+
+    function updateMerkleRoot(bytes32 _merkleRoot) public onlyOwner{
+        merkleRoot = _merkleRoot;
     }
 
     function isClaimed(uint256 index) public view override returns (bool) {
