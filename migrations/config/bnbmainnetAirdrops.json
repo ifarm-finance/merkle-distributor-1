@@ -1,0 +1,20 @@
+{
+    "rUSD": {
+        "startAirdrop": false,
+        "tokenAddr": "0x4779DAEa8E7259514aBAEa2918B767B0B576FBC1",
+        "merkleRoot": "0x15a1223adfdaf07dd3aee8d45eb8c6cf7ad9ebe0b414a1b0a98c09161e2bf772",
+        "totalSupplyAirdrop": "129200000000000000000000"
+    },
+    "rBTC": {
+        "startAirdrop": false,
+        "tokenAddr": "0xA4b9BA0A8CD1A183fd9B0A235D719286AdDC2bcb",
+        "merkleRoot": "",
+        "totalSupplyAirdrop": ""
+    },
+    "rETH": {
+        "startAirdrop": false,
+        "tokenAddr": "0x5f7c33Ef5Bd357F73Ca8D090fd124dF7c2c8B372",
+        "merkleRoot": "",
+        "totalSupplyAirdrop": ""
+    }
+}
