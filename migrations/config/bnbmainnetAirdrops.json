@@ -12,9 +12,9 @@
         "totalSupplyAirdrop": ""
     },
     "rETH": {
-        "startAirdrop": false,
+        "startAirdrop": true,
         "tokenAddr": "0x5f7c33Ef5Bd357F73Ca8D090fd124dF7c2c8B372",
-        "merkleRoot": "",
-        "totalSupplyAirdrop": ""
+        "merkleRoot": "0x9640401091fe7b125abd8d3eab1297663ca5e85f7ebd41bb4df544c5638224f5",
+        "totalSupplyAirdrop": "10500000000000000000"
     }
 }

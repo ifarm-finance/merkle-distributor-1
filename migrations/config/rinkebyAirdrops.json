@@ -14,7 +14,7 @@
     "rETH": {
         "startAirdrop": true,
         "tokenAddr": "0x80F6979bc7Eb1FCD72967b78e4C783789aC4f108",
-        "merkleRoot": "0xd9fa9e8c2f907bb59ff0f69dee81a1af6f5ead7b52555fd88fdbee0804b15d42",
-        "totalSupplyAirdrop": "27000000000000000000"
+        "merkleRoot": "0x461d876a1579f358f637034585fd522eae6eeef6efe634272d52c074c02bde7e",
+        "totalSupplyAirdrop": "10500000000000000000"
     }
 }
